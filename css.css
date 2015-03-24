@@ -1,0 +1,299 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Ubuntu|Roboto|Montserrat);
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #eeeeee;
+  overflow-x:hidden; 
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+table{
+   width:100%;
+   border-collapse:collapse;
+   
+}
+td {
+   font-size:13px;
+   font-family:'Roboto', sans-serif;
+   padding:5px;
+}
+td h2{
+   padding:0;
+   margin:0;
+   text-align:left;
+}
+.sidebarlink:hover {
+  color: white
+}
+.image-box {
+  width:100%;
+  height:auto;
+  max-height:100px;
+  overflow-y: hidden;
+}
+.image-box img {
+  width: 100%;
+}
+.back-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.download-link {
+	color:black;
+	text-decoration:none;
+}
+.download-link:hover {
+	color:rgb(200,200,200);
+}
+.download-link:visited {
+	color:rgb(100,100,200);
+}
+.back {
+  border:2px solid #2E2E2E;
+  color: #2E2E2E;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing:antialiased;
+  text-align: center;
+  padding: 2px 4px 2px 4px;
+  box-shadow: inset 0 0 0 0 #2E2E2E;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  transition: all 0.3s;
+}
+.back:hover {
+  color:#eeeeee;
+  box-shadow: inset 0 -23px 0 0 #2E2E2E;
+  transition: box-shadow 0.3s linear;
+
+}
+label {
+  -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.images {
+  width:100%;
+  height: auto;
+  top:0;
+  left:0;
+  transition:0.5s linear;
+}
+.cool {
+  background-color: black;
+}
+.post {
+  width:100%;
+  max-width: 700px;
+  font-size:13px;
+  font-family:'Roboto', sans-serif;
+  line-height:150%;
+  align:justify;
+}
+#container {
+  width:60%;
+  max-width: 700px;
+  margin:auto;
+}
+#profilepic {
+  width: 98%;
+  opacity: 0.8;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.image-link {
+  transition:0.5s linear;
+  background-color: black;
+  position: relative;
+  width:49%;
+  height:20%;
+  max-width: 350px;
+  max-height: 240px;
+  margin-bottom: 2%;
+  float:left;
+  text-align: center;
+  overflow: hidden;
+}
+.image-link:hover {
+
+}
+.image-span {
+  z-index: 9999;
+  width: 100%;
+  text-align: center;
+  bottom: 45%;
+  left:0;
+  position: absolute;
+  color: black;
+}
+.header {
+  margin:auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.head-separator {
+  height:1px;
+  background:rgba(0,0,0,0.2);
+  width:60%;
+  max-width: 700px;
+  margin:0 auto;
+  margin-bottom: 20px;
+
+}
+.post .date {
+  text-align: center;
+}
+.post h1 {
+  font-family:'Monsterrat' , sans-serif;
+  font-size:20px;
+  -webkit-font-smoothing:antialiased;
+}
+.post h2 {
+   font-family:'Monsterrat' , sans-serif;
+  font-size:17px;
+  -webkit-font-smoothing: antialiased;
+}
+.post h3 {
+ font-family:'Monsterrat' , sans-serif;
+  font-size:15px;
+  -webkit-font-smoothing: antialiased;
+}
+.post p {
+  text-align: justify;
+}
+p {
+  -webkit-font-smoothing:antialiased;
+}
+.line-separator {
+  height:1px;
+  background:rgba(0,0,0,0.2);
+  width:60%;
+  margin:0 auto;
+  margin-bottom: 20px;
+
+}
+.date {
+  font-family:'Roboto', sans-serif;
+  font-size:9px;
+  text-align:center;
+}
+.smallmed {
+float:left;
+}
+.box {
+  margin:0 auto;
+}
+.page-content {
+  position: relative;
+  z-index: 0;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  background: #eeeeee; }
+
+.toggle {
+  text-decoration: none;
+  font-size: 40px;
+  color: #333333;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  position: fixed;
+  top: 20px;
+  left: 16px;
+  z-index: 1;
+  cursor: pointer; }
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  width: 120px;
+  padding: 30px;
+  background: #333333;
+  z-index: 0; }
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .sidebar li {
+    color: rgb(180, 180, 180);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer; }
+    .sidebar li:hover {
+      color: rgba(180,180,180,1); }
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: 0px; }
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 200px;
+    transform:rotate(45deg);
+	color:#911A1A;
+	}
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 180px; }
+    #clear {
+    clear: both;
+}
+.topbar {
+width:100%;
+height:5px;
+z-index:5;
+background: -webkit-linear-gradient(left top , 
+				#0066FF 0%, 
+				#0066FF 12.5%, 
+				#4C5FCA 12.5%, 
+				#4C5FCA 25%, 
+				#595EC2 25%, 
+				#595EC2 37.5%, 
+					#665DB9 37.5%, 
+					#665DB9 50%, 
+					#805BA8 50%, 
+					#805BA8 62.5%, 
+				#995996 62.5%, 
+				#995996 75%, 
+				#CC5473 75%, 
+				#CC5473 87.5%, 
+				#FF5050 87.5%, 
+				#FF5050 100%) 
+				repeat scroll 50% 0px transparent;
+background: -moz-linear-gradient(left top , 
+        #0066FF 0%, 
+        #0066FF 12.5%, 
+        #4C5FCA 12.5%, 
+        #4C5FCA 25%, 
+        #595EC2 25%, 
+        #595EC2 37.5%, 
+          #665DB9 37.5%, 
+          #665DB9 50%, 
+          #805BA8 50%, 
+          #805BA8 62.5%, 
+        #995996 62.5%, 
+        #995996 75%, 
+        #CC5473 75%, 
+        #CC5473 87.5%, 
+        #FF5050 87.5%, 
+        #FF5050 100%) 
+        repeat scroll 50% 0px transparent;

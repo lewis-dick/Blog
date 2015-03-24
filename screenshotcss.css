@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Ubuntu|Roboto|Montserrat);
+html, body {
+  margin: 0;
+  padding: 0; }
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+a:hover {
+  color:white;
+}
+#container {
+  width:700px;
+  margin:auto;
+}
+.header {
+  margin:auto;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.head-separator {
+  height:1px;
+  background:rgba(0,0,0,0.1);
+  width:700px;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+#clear {
+    clear: both;
+}
+.largeimage {
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+.med {
+	float:left;
+}
+.smallmed {
+	float:left;
+}
+.bigsmall {
+	float:left;
+}
+.small {
+	float:left;
+}
+#box {
+	float:left;
+}
+.header {
+  margin:auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.head-separator {
+  height:1px;
+  background:rgba(0,0,0,0.1);
+  width:700px;
+  margin:0 auto;
+  margin-bottom: 20px;
+
+}
+.post h1 {
+  font-family:'Monsterrat' , sans-serif;
+  font-size:20px;
+}
+.line-separator {
+  height:1px;
+  background:rgba(0,0,0,0.1);
+  width:400px;
+  margin:0 auto;
+  margin-bottom: 20px;
+
+}
+.date {
+  font-family:'Roboto', sans-serif;
+  font-size:9px;
+  text-align:center;
+}
+.page-content {
+  position: relative;
+  z-index: 0;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
+  background: #eeeeee; }
+
+.toggle {
+  text-decoration: none;
+  font-size: 40px;
+  color: #333333;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer; }
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
+  width: 120px;
+  padding: 30px;
+  background: #333333;
+  z-index: 0; }
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .sidebar li {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer; }
+    .sidebar li:hover {
+      color: white; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: 0px; }
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 200px;
+    transform:rotate(45deg); }
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 180px; }
+    #clear {
+    clear: both;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@max-width
